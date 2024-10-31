@@ -1,3 +1,6 @@
+import unittest
+from app import add
+
 class TestApp(unittest.TestCase):
     def test_add(self):
         try:
